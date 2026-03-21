@@ -202,32 +202,6 @@ Installation
 
 pip install -r requirements.txt
 
-
-⸻
-
-Requirements
-
-numpy==1.26.4
-pandas==2.2.3
-scipy==1.14.1
-matplotlib==3.9.2
-seaborn==0.13.2
-scikit-learn==1.5.2
-scikit-optimize==0.10.2
-xgboost==1.7.6
-joblib==1.4.2
-openpyxl==3.1.5
-pyDOE2==1.3.0
-ipython==8.26.0
-ipykernel==6.29.5
-jupyter_client==8.6.2
-jupyter_core==5.7.2
-nbformat==5.10.4
-nbclient==0.10.2
-nbconvert==7.16.6
-tqdm==4.67.1
-
-
 ⸻
 
 Usage
