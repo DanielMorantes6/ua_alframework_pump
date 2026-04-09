@@ -242,4 +242,4 @@ A subset of data and full implementation are provided for partial reproducibilit
 
 For questions or collaboration inquiries, please contact the corresponding author.
 Author: Daniel Morantes-Morales
-Email: d.morantes@uniandes.edu.co
+Mail: d.morantes@uniandes.edu.co
