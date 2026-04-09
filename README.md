@@ -2,8 +2,8 @@
 
 This repository presents a hybrid framework that integrates Computational Fluid Dynamics (CFD), Machine Learning (ML), and Active Learning (AL) strategies to efficiently construct surrogate models for centrifugal pump performance prediction. The objective is to reduce the computational cost of CFD simulations while maintaining high predictive accuracy through structured sampling strategies.
 
-{author} Daniel Morantes-Morales
-{mail} d.morantes@uniandes.edu.co
+Author: Daniel Morantes-Morales
+Mail: d.morantes@uniandes.edu.co
 ---
 
 ## Methodology Overview
@@ -108,6 +108,7 @@ The following metrics are used:
 
 ## Repository Structure
 
+```text
 .
 ├── notebooks/
 ├── src/
@@ -119,6 +120,7 @@ The following metrics are used:
 ├── requirements.txt
 ├── Makefile
 └── README.md
+```
 
 ---
 
@@ -156,8 +158,6 @@ These assets allow:
 - reproducibility of reported results  
 - reuse of the model in external workflows or applications  
 
-> This folder represents the final deliverable of the framework and can be treated as a deployable model asset package.
-
 ---
 
 ## Best-Path Verification Script
@@ -189,27 +189,22 @@ make notebooks
 make best-model
 make clean
 make check-artifacts
-
+```
 	•	make install → install dependencies
 	•	make notebooks → launch Jupyter
 	•	make best-model → run verification script
 	•	make clean → remove cache files
-	•	make check-artifacts → verify repo structure
+	•	make check-artifacts → verify repository structure
 
-⸻
+---
 
-Installation
+## Installation
 
 pip install -r requirements.txt
 
 ⸻
 
-Usage
-
-jupyter notebook
-
-⸻
-Reproducibility_Notes
+## Reproducibility Notes
 	•	Python version: 3.11–3.12
 	•	XGBoost version: 1.7.6
 	•	GPR implemented using scikit-learn
@@ -228,26 +223,23 @@ However, the repository provides:
 
 ⸻
 
-Key Contributions and Findings
+## Key Contributions and Findings
 	•	Active Learning significantly reduces CFD simulation requirements
 	•	Structured sampling improves surrogate model generalization
-	•	Hybrid strategies improve early-stage exploration
-	•	Uncertainty-driven GPR provides the best performance
+	•	Uncertainty-driven GPR provides the best performance in this setting
 	•	Predictive uncertainty is an effective sampling criterion for complex fluid systems
 
 ⸻
 
-Data Availability
+## Data Availability
 
 The complete CFD dataset is not publicly distributed.
 A subset of data and full implementation are provided for partial reproducibility.
 
 ⸻
 
-Contact
+## Contact
 
 For questions or collaboration inquiries, please contact the corresponding author.
-{author}: Daniel Morantes-Morales
-{mail}: d.morantes@uniandes.edu.co
-
----
+Author: Daniel Morantes-Morales
+Email: d.morantes@uniandes.edu.co
