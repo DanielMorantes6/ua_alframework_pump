@@ -202,7 +202,7 @@ make check-artifacts
 
 pip install -r requirements.txt
 
-⸻
+---
 
 ## Reproducibility Notes
 	•	Python version: 3.11–3.12
@@ -221,7 +221,7 @@ However, the repository provides:
 	•	complete implementation
 	•	final model reconstruction
 
-⸻
+---
 
 ## Key Contributions and Findings
 	•	Active Learning significantly reduces CFD simulation requirements
@@ -229,14 +229,14 @@ However, the repository provides:
 	•	Uncertainty-driven GPR provides the best performance in this setting
 	•	Predictive uncertainty is an effective sampling criterion for complex fluid systems
 
-⸻
+---
 
 ## Data Availability
 
 The complete CFD dataset is not publicly distributed.
 A subset of data and full implementation are provided for partial reproducibility.
 
-⸻
+---
 
 ## Contact
 
